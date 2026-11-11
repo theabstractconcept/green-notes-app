@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+
+:root{font-family:'DM Sans',sans-serif;color:#e8f0e9;background:#071b14;font-synthesis:none;text-rendering:optimizeLegibility}
+*{box-sizing:border-box}
+body{margin:0;min-width:320px;background:radial-gradient(ellipse at 50% -20%,#173b2b 0%,#071b14 58%);min-height:100vh}
+button,input,textarea{font:inherit}
+button{cursor:pointer}
+.auth-wrap{min-height:100vh;display:grid;place-items:center;padding:24px}
+.auth-card{width:min(100%,420px);padding:42px;background:#0d261c;border:1px solid #244634;border-radius:20px;box-shadow:0 24px 80px #0003}
+.brand-mark{font-family:'Playfair Display',serif;font-size:42px;color:#a7d7a8;margin-bottom:26px}
+.eyebrow{font-size:10px;letter-spacing:2.4px;color:#82b48b;font-weight:700}
+h1,h2,h3,p{margin-top:0}
+.auth-card h1,.intro h1{font-family:'Playfair Display',serif;font-weight:500;font-size:42px;line-height:1.12;margin:12px 0}
+.muted{color:#9aafa1;line-height:1.6}
+.auth-card form{display:grid;gap:16px;margin-top:28px}
+label{display:grid;gap:8px;font-size:13px;color:#c5d4c8}
+input,textarea{width:100%;background:#091d15;border:1px solid #2b4937;border-radius:9px;padding:13px 14px;color:#eff7ef;outline:none}
+input:focus,textarea:focus{border-color:#8acb91}
+input::placeholder,textarea::placeholder{color:#60796a}
+.primary{border:0;background:#a7d7a8;color:#102719;border-radius:8px;padding:12px 18px;font-weight:700}
+.primary:hover{background:#bce8bd}
+.primary:disabled{opacity:.6;cursor:wait}
+.full{width:100%;margin-top:6px}
+.switch-auth{font-size:13px;text-align:center;color:#9aafa1;margin:24px 0 0}
+.switch-auth button,.text-button{border:0;background:none;color:#a7d7a8;padding:0;font-weight:600}
+.error{color:#ffaaa4;font-size:13px}
+.dashboard{max-width:1100px;margin:auto;padding:0 42px}
+.topbar{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1d3b2a}
+.wordmark{font-family:'Playfair Display',serif;font-size:25px;color:#e8f0e9;text-decoration:none}.wordmark span{color:#9bcda0}
+.user-menu{display:flex;align-items:center;gap:18px;color:#b9cabe;font-size:13px}
+.ghost{border:1px solid #34523e;background:transparent;color:#c9d9cc;padding:9px 14px;border-radius:8px}
+.ghost:hover{border-color:#9bcda0;color:#a7d7a8}
+.intro{padding:68px 0 48px}
+.intro h1{font-size:60px;margin:16px 0}.intro h1 em{color:#a7d7a8}
+.workspace{border-top:1px solid #1d3b2a;padding-top:24px;min-height:300px}
+.tabs{display:flex;gap:28px;border-bottom:1px solid #1d3b2a;margin-bottom:24px}
+.tabs button{background:none;border:0;color:#8ea697;padding:0 0 15px;font-weight:600;border-bottom:2px solid transparent}
+.tabs button.active{color:#e8f0e9;border-color:#a7d7a8}
+.tabs span{font-size:11px;background:#183b29;padding:3px 7px;border-radius:20px;margin-left:5px;color:#a7d7a8}
+.new-note{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:#0d261c;border:1px dashed #41664b;border-radius:12px;padding:19px;color:#a7d7a8;font-size:20px}
+.new-note span{font-size:14px;font-weight:600}
+.note-form{background:#0d261c;border:1px solid #34523e;border-radius:13px;padding:20px;margin-bottom:24px;display:grid;gap:12px}
+.note-form>input{font-size:17px;font-weight:600}.note-form textarea{resize:vertical;line-height:1.6}
+.form-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.checkbox{display:flex;align-items:center;gap:9px}.checkbox input{width:auto;accent-color:#a7d7a8}
+.form-actions{display:flex;gap:10px}
+.notes-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+.note-card{background:#0d261c;border:1px solid #1e3d2b;border-radius:13px;padding:20px;min-height:190px;display:flex;flex-direction:column}
+.note-meta{display:flex;justify-content:space-between;color:#789181;font-size:11px}
+.visibility{color:#d7bd7a;letter-spacing:1.2px;font-size:9px;font-weight:700}.visibility.public{color:#9bcda0}
+.note-card h3{font-family:'Playfair Display',serif;font-size:23px;font-weight:500;margin:17px 0 8px}
+.note-body{white-space:pre-wrap;overflow-wrap:anywhere;color:#b6c8ba;font-size:13px;line-height:1.65;flex:1}
+.note-footer{display:flex;justify-content:space-between;align-items:center;color:#718879;font-size:11px;margin-top:14px}
+.note-actions{display:flex;gap:14px}.text-button{font-size:12px}.danger-text{color:#e69a8e}
+.empty{text-align:center;padding:60px 15px}.empty-icon{font-size:32px;color:#a7d7a8;margin-bottom:12px}.empty h3{font-family:'Playfair Display',serif;font-size:24px;font-weight:500;margin-bottom:8px}
+footer{text-align:center;color:#5f7968;font-size:11px;padding:70px 0 30px}
+.loading-screen{min-height:100vh;display:grid;place-items:center;color:#a7d7a8;font-family:'Playfair Display',serif;font-size:28px}
+@media(max-width:700px){.dashboard{padding:0 20px}.intro{padding:48px 0 34px}.intro h1{font-size:46px}.notes-grid{grid-template-columns:1fr}.auth-card{padding:30px 24px}.topbar{height:72px}.user-menu{gap:10px}.form-bottom{align-items:flex-start;flex-direction:column}.form-actions{width:100%;justify-content:flex-end}}
