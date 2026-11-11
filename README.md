@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Green Notes — React + Express + MongoDB
 
 A minimal notes app with JWT authentication, bcrypt password hashing, private notes, and a public feed.
@@ -244,3 +245,6 @@ Developed as a personal full-stack web development project.
 
 **Green Notes — Keep your thoughts organized. 🌿**
 >>>>>>> ff12cd6f85b9134472a25ef8fed655ceb44d624e
+=======
+
+>>>>>>> origin/main
